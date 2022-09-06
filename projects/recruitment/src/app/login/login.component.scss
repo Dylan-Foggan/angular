@@ -1,0 +1,46 @@
+mat-card {
+  height: 100%;
+
+  width: 100%;
+
+  background: #ffffff;
+}
+
+.login-container {
+
+  height: 500px;
+
+  width: 600px;
+}
+
+.background-image {
+  opacity: 0.5;
+
+  height: 100%;
+
+  width: 100%;
+}
+
+button {
+  width: 140px;
+
+  border-radius: 6px;
+
+  &.mat-raised-button {
+    width: 200px;
+
+    border-radius: 23px;
+
+    height: 40px;
+
+    box-shadow: none;
+  }
+}
+
+.logo-name {
+  width: 350px;
+
+  height: 70px;
+
+  flex-direction: row;
+}

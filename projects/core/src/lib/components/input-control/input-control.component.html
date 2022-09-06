@@ -1,0 +1,8 @@
+<mat-form-field [floatLabel]="'always'" [appearance]="'outline'">
+
+  <mat-label> {{ label }}</mat-label>
+
+  <input matInput ngDefaultControl [type]="type" [placeholder]="placeHolder" [formControl]="formControlName" (blur)="onTouched()"
+    [required]="true">
+
+</mat-form-field>
