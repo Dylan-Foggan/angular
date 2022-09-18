@@ -10,14 +10,23 @@ import { SidenavComponent } from './sidenav.component';
 
 import { MatSidenavModule } from '@angular/material/sidenav';
 
+import { ToolbarModule } from '../toolbar/toolbar.module';
+
 @NgModule({
   declarations: [SidenavComponent],
 
   imports: [
+
     CommonModule,
+
     BrowserAnimationsModule,
+
     RouterModule,
+
     MatSidenavModule,
+
+    ToolbarModule
+
   ],
 
   exports: [SidenavComponent],

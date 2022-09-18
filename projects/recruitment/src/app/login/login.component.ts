@@ -31,8 +31,6 @@ export class LoginComponent implements OnInit {
 
       let formGroupValue = this.loginConfig.standardLogin.loginBuilder.value;
 
-      console.log('Trying to sign in')
-
       this.authService.isUserSignIn(formGroupValue.emailAddress, formGroupValue.password);
 
     }

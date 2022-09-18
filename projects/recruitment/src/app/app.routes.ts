@@ -12,19 +12,19 @@ export const appRoutes: Routes = [
     redirectTo: '/login'
   },
 
-  {
+  // {
 
-    path: 'login',
+  //   path: 'login',
 
-    loadChildren: () => import('./login/login.module').then(module => module.LoginModule)
+  //   loadChildren: () => import('./login/login.module').then(module => module.LoginModule)
 
-  },
+  // },
 
   {
 
     path: 'dashboard',
 
-    canLoad: [AuthGuard],
+    // canLoad: [AuthGuard],
 
     loadChildren: () => import('./dashboard/dashboard.module').then(module => module.DashboardModule)
 

@@ -7,7 +7,7 @@ import { LoginComponent } from "../login/login.component";
 
 export const sharedRoutes: Routes = [
 
-  { path: 'login', component: LoginComponent },
+  // { path: 'login', component: LoginComponent },
 
   { path: 'dashboard', component: DashboardComponent}
 

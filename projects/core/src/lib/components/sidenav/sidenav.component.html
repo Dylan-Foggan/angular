@@ -1,13 +1,17 @@
-<mat-sidenav-container class="example-container">
+<lib-toolbar></lib-toolbar>
 
-  <mat-sidenav [mode]="'side'" opened=""></mat-sidenav>
+<div class="sidenav-class">
 
-  <mat-sidenav-content>
+  <mat-sidenav-container class="example-container">
 
-    <router-outlet></router-outlet>
+    <mat-sidenav [mode]="'side'" [opened]="true"></mat-sidenav>
 
-  </mat-sidenav-content>
+    <mat-sidenav-content>
 
-</mat-sidenav-container>
+      <router-outlet></router-outlet>
 
+    </mat-sidenav-content>
 
+  </mat-sidenav-container>
+
+</div>
